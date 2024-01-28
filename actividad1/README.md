@@ -7,8 +7,8 @@ Sergio André Lima Corado
 202100154
 27/01/2024
 
-# Tipos de Kernels:
-## Kernel Monolítico:
+# Tipos de Kernels: 🔩🖥️
+## Kernel Monolítico: 
 Definición: Todas las funciones del sistema operativo se ejecutan en el espacio del kernel.
 Es un único bloque de código que maneja todas las operaciones del sistema.
 Ejemplos: Linux, Unix.
@@ -44,7 +44,7 @@ Ejemplos: FreeRTOS, VxWorks.
 | Ejemplos Prácticos    | Linux, Unix               | QNX, L4                  | Windows NT, macOS          | XOK, ExOS                   | EKA2 (en algunos aspectos)  | FreeRTOS, VxWorks            |
 
 
-# USER VS KERNEL MODE
+# 🙆‍♂️ USER VS KERNEL MODE 🖥️
 
 | Característica                  | Modo Usuario                   | Modo Kernel                  |
 |----------------------------------|---------------------------------|------------------------------|
@@ -58,7 +58,7 @@ Ejemplos: FreeRTOS, VxWorks.
 | Interfaz con el Hardware          | A través de llamadas al sistema | Acceso directo al hardware   |
 | Ejemplos Prácticos               | Aplicaciones de usuario, procesos de usuario | Manejo del núcleo del sistema, controladores de dispositivo |
 
-# INTERRUPTIONS VS TRAPS
+# 🚫 INTERRUPTIONS VS TRAPS 🪤
 
 | Característica                   | Interrupciones                           | Trampas (Traps)                        |
 |-----------------------------------|------------------------------------------|----------------------------------------|
