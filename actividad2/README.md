@@ -59,6 +59,7 @@ echo "Fue creado el Cronjob para ejecutar el script cada 5 minutos."
 ## Prerequisitos 🪧
 
 Contar instalado el comando jq para poder procesar el JSON, sino se puede instalar con el comando:
+
 ``` sudo apt-get install jq```
 
 También se puede agregar el siguiente segmento al bash, si se desea evitar la parte anterior, para que lo haga automáticamente, como actividad extra para esta actividad:
