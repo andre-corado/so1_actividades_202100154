@@ -1,0 +1,10 @@
+[Unit]
+Description=Imprime la hora cada segundo
+
+
+[Service]
+
+ExecStart=/home/ubu/act3.sh
+
+[Install]
+WantedBy=multi-user.target
