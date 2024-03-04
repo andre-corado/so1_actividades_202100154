@@ -1,0 +1,7 @@
+while true; do
+  echo "Su mensaje: "
+  read message
+  echo "$message" > pipe1
+  read response < pipe2
+  echo "Respuesta: $response"
+done
